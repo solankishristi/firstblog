@@ -1,0 +1,67 @@
+:root {
+  --font1: "Yellowtail", cursive;
+}
+.max-width-1 {
+  max-width: 80vw;
+}
+
+.max-width-2 {
+  max-width: 60vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.form-input {
+  padding: 5px 5px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0 13px;
+  font-family: sans-serif;
+}
+
+.btn {
+  color: #1d3557;
+  height: 35px;
+  padding: 3px 15px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #bcd4e6;
+}
+
+.font1 {
+  font-family: sans-serif;
+}
+
+.font2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.my-2 {
+  margin-bottom: 12px;
+  margin-top: 32px;
+}
+
+.form-box input,
+textarea {
+  width: 52vw;
+  padding: 10px 6px;
+  margin: 7px 0;
+  /* font-size: 8px;
+    font-family: var(--font1); */
+  border: 2px solid cadetblue;
+  border-radius: 2px;
+}
+
+.box {
+  width: 80%;
+  margin: 0 auto;
+}
